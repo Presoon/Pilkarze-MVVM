@@ -24,11 +24,11 @@
 
             <!-- Firstname -->
             <Label Content="FirstName " Margin="0 15 0 0"/>
-            <TextBox Margin="10, 5" FontSize="20" Background="White" Text="{Binding Path=firstname, Mode=TwoWay}" />
+            <TextBox Margin="10, 5" FontSize="15" Background="White" Text="{Binding Path=firstname, Mode=TwoWay}" />
 
             <!-- Surname -->
             <Label Content="Surname "/>
-            <TextBox Margin="10, 5" FontSize="20" Background="White" Text="{Binding Path=surname, Mode=TwoWay }" />
+            <TextBox Margin="10, 5" FontSize="15" Background="White" Text="{Binding Path=surname, Mode=TwoWay }" />
 
             <!-- Age -->
             <Grid>
